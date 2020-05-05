@@ -1,1 +1,70 @@
 
+*{
+box-sizing: border-box;
+}
+
+
+.navbar-header{
+	width:110%;
+	margin:0px;
+	padding:0;
+	
+}
+.navbar-brand h1 {
+	color: #344334;
+	margin-top:0;
+	margin-bottom: 0;
+	margin:0;
+	margin-left: 40px;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration:none;
+}
+h2{
+	margin-bottom: 50px;
+}
+.container{
+	width:100%;
+	padding:0;
+	max-width:2000px;
+height:50px;
+}
+.container div{
+	background-color: #965559;
+	clear:both;
+	width:106%;
+	margin-left: -8.2px;
+	padding:0;
+}
+/* the below code is for colouring the hamburger menu button 
+.navbar-toggler{
+    width: 65px;
+    height: 50px;
+    background-color: #7eb444;
+    border:2 px solid green;
+    border-radius: 10px;
+} */
+	.container-fluid,.container-lg, .container-md, .container-sm, .container-x {
+		width:90% !important;
+	background-color: #665555;
+	height:1500px;
+	text-align:center;
+	margin-right: 100px;
+margin-left:auto;
+}
+.row{
+width:100%;
+margin-right: auto;
+margin-left: auto;
+}
+@media (min-width: 768px){
+
+	 
+#collapsible-navbar .navbar-expand-md .navbar-collapse{
+    
+    display: none !important;
+    flex-basis: auto;
+}}
+        
+        
